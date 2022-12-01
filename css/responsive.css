@@ -1,0 +1,428 @@
+@media only screen and (max-width: 512px) {
+    .main_page_about {
+        height: auto !important;
+        padding: 50px 0 0 !important;
+    }
+}
+
+@media only screen and (max-width: 576.99px) {
+    .projects .owl-carousel .owl-nav .owl-prev {
+        left: -12px;
+    }
+
+    .projects .owl-carousel .owl-nav .owl-next {
+        right: -12px;
+    }
+
+    .products .products-content .row>div {
+        width: 72% !important;
+        margin: 0 auto;
+    }
+
+    .about_descr {
+        padding: 0 15%;
+    }
+
+    .call-to-action .content_wrap h3 {
+        font-size: 30px !important;
+    }
+
+    .call-to-action .content_wrap p {
+        margin: 25px 0 0;
+        font-size: 15px !important;
+    }
+
+    .call-to-action .more_btn {
+        padding: 10px 16px;
+        margin-top: 30px;
+    }
+
+    .categories .col-md-4:first-child .box .box_img img {
+        object-position: -4px -50px;
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 467.99px) {
+    .list-wrap span {
+        width: 30px !important;
+        height: 30px !important;
+        margin-right: 20px !important;
+    }
+
+    .list-wrap span svg {
+        width: 16px !important;
+    }
+}
+
+@media only screen and (min-width: 390px) and (max-width: 470px) {
+    .box {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    .box .box_img img {
+        width: 100% !important;
+    }
+
+    .advantages .row>* {
+        width: 93% !important;
+    }
+}
+
+@media only screen and (min-width: 336px) and (max-width: 390px) {
+    .advantages .row>* {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (min-width: 298px) and (max-width: 336px) {
+    .advantages .row>* {
+        width: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-item {
+        display: none;
+    }
+
+    .navbar-btn {
+        display: none !important;
+    }
+
+    main .text_wrapper {
+        text-align: center;
+    }
+
+    main .text_wrapper .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    main .text_wrapper p {
+        margin-bottom: 24px;
+    }
+
+    main .text_wrapper .more_btn {
+        margin: auto;
+    }
+
+    main .carousel-item .circle_wrap {
+        width: 280px;
+        height: 280px;
+    }
+
+    .carousel-item .img_wrapper {
+        margin-top: 50px;
+    }
+
+    .first-slide .img_wrapper img {
+        width: 230px !important;
+    }
+
+    .second-slide .img_wrapper img {
+        width: 230px !important;
+    }
+
+    .third-slide .img_wrapper img {
+        width: 300px !important;
+    }
+
+    .fourth-slide .img_wrapper img {
+        width: 270px !important;
+    }
+
+    .fifth-slide .img_wrapper img {
+        width: 320px !important;
+    }
+
+    .control_container {
+        height: 14%;
+    }
+
+    main .carousel-control-next,
+    main .carousel-control-prev {
+        width: 50px;
+        height: 50px;
+    }
+
+    main .carousel-control-next-icon,
+    main .carousel-control-prev-icon {
+        font-size: 18px !important;
+    }
+
+    main .carousel-control-next {
+        right: 0;
+        left: auto;
+    }
+
+    .list-wrap li {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .box .box_img {
+        height: 300px !important;
+        text-align: center;
+    }
+
+    .box .box_img img {
+        width: 100% !important;
+    }
+
+    .about_descr {
+        padding: 0 15%;
+    }
+
+    .main_page_about {
+        height: 500px;
+    }
+
+    .products .card .card_img {
+        height: 216px;
+    }
+
+    .owl-stage {
+        transform: translate3d(-2828px, 0px, 0px);
+        transition: all 0.6s ease 0s;
+        width: 5410px !important;
+    }
+
+    .call-to-action {
+        padding: 40px 0 20px;
+        height: auto;
+    }
+
+    .call-to-action .content_wrap h3 {
+        font-size: 40px;
+    }
+
+    .call-to-action .img_wrap {
+        position: relative;
+        width: 65%;
+        right: 0;
+        bottom: 0;
+        margin-top: -100px;
+        margin-left: auto;
+    }
+
+    footer .logo_wrap {
+        margin-bottom: 30px;
+    }
+
+    footer .social_media li {
+        margin-left: 0;
+        margin-right: 30px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width: 992px) {
+    .navbar-item {
+        display: none;
+    }
+
+    .navbar-btn {
+        display: none !important;
+    }
+
+    header .navbar-collapse {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100vh;
+    }
+
+    .text_wrapper h2 {
+        font-size: 44px;
+        margin-bottom: 15px;
+        line-height: 70px;
+        font-weight: 600;
+    }
+
+    .text_wrapper p {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .img_wrapper {
+        margin-top: 50px;
+    }
+
+    .carousel-item .circle_wrap {
+        width: 300px;
+        height: 300px;
+    }
+
+    .first-slide .img_wrapper img {
+        width: 250px !important;
+    }
+
+    .second-slide .img_wrapper img {
+        width: 250px !important;
+    }
+
+    .third-slide .img_wrapper img {
+        width: 320px !important;
+    }
+
+    .fourth-slide .img_wrapper img {
+        width: 290px !important;
+    }
+
+    .fifth-slide .img_wrapper img {
+        width: 360px !important;
+    }
+
+    .list-wrap li {
+        font-size: 18px;
+    }
+
+    .advantages .row>* {
+        width: 100% !important;
+    }
+
+    .box .box_img {
+        height: 214px;
+    }
+
+    .box .box_body .box_descr {
+        font-size: 14px;
+    }
+
+    .main_page_about {
+        height: 500px;
+    }
+
+    .call-to-action .content_wrap h3 {
+        font-size: 42px;
+    }
+
+    .call-to-action .img_wrap {
+        width: 485px;
+        max-width: initial;
+    }
+
+    footer .social_media li {
+        margin: 30px 30px 0 0;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width: 992px) {
+    .navbar-item {
+        display: none;
+    }
+
+    .navbar-btn {
+        display: block !important;
+    }
+
+    .all-navbar {
+        justify-content: space-between !important;
+    }
+}
+
+@media only screen and (min-width:993px) and (max-width: 1200px) {
+    .navbar-item ul a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .navbar-item .navbar-active-li a {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    .navbar-language ul li {
+        padding-right: 14px !important;
+        margin: 0 6px !important;
+    }
+
+    .navbar-btn a {
+        padding: 8px 15px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 470px) {
+    .box .box_img img {
+        object-fit: contain;
+        object-position: 0 !important;
+    }
+
+    .products {
+        padding: 1rem 0 3.3rem;
+    }
+
+    .products .row>div:nth-child(2) .box {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 467.99px) {
+    .navbar-language ul li {
+        margin: 0 5px !important;
+        padding-right: 9px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .call-to-action {
+        height: 350px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .call-to-action .img_wrap {
+        max-width: initial;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .call-to-action .img_wrap {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 1199.99px) {
+    main .text_wrapper p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 991.99px) {
+    .all-navbar {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    menu {
+        display: block;
+    }
+
+    header .menu_wrapper {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 90%;
+        right: -100%;
+        background: #efe1d2;
+        padding: 60px 50px;
+        height: 100vh;
+        overflow-y: auto;
+    }
+
+    .navbar-toggler {
+        display: block;
+    }
+
+    header .close {
+        position: relative;
+        margin-left: auto;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+}
